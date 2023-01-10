@@ -24,6 +24,7 @@ const server = require("./src/app.js");
 
 const port = process.env.PORT || 9000;
 
+mongoose.set('strictQuery', false);
 mongoose.connect(process.env.MONGODB_URI)
     .then(()=>console.log('Connected to MongoDb Atlas'))
     .catch((error)=>console.log(error))
