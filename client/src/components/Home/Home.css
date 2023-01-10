@@ -1,0 +1,101 @@
+.homePage {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.promotions {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-direction: row;
+  height: auto;
+  width: 100%;
+  background-image: url("../../sourceImg/banner.jpg");
+  background-position: center center;
+  background-size: cover;
+  border-radius: 0px 0px 5px 5px;
+  box-shadow: 0px 1px 8px rgba(7, 63, 68, 0.3);
+}
+
+.titleShell{
+  margin: 1em 0 1em 0;
+  font-weight: bold;
+  color: #34495e
+}
+
+.textoPromotions {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  width: 45%;
+}
+
+.textoPromotions h3 {
+  font-size: 2.5rem;
+}
+
+.textoPromotions p {
+  font-size: 1rem;
+}
+
+.detailBook p {
+  width: 250px;
+}
+
+.detailBook {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.detailBook img {
+  width: 250px;
+}
+
+.stand {
+  margin-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-direction: column;
+  margin-bottom: 50px;
+}
+
+.buttonView {
+  background-color: #287ccb;
+  border: 1px solid #287ccb;
+  height: 40px;
+  width: 100px;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+.advertisements {
+  margin-top: 100px;
+  margin-bottom: 90px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.advertisements p {
+  width: 280px;
+}
+
+.imageFail {
+  margin-top: -7px;
+}
+
+.imagePromotions {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+.promotionImages {
+  border-radius: 5px;
+}

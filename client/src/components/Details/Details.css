@@ -1,0 +1,590 @@
+.bookImage {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.bookImage img{
+  width: 336px;
+  height: 465px;
+  box-shadow: 5px 5px 2px 1px rgba(0, 0, 0, 0.2);
+  margin-left: 20%;
+}
+
+.whiteBox {
+  margin-top: 15px;
+  background-color: white;
+  border-radius: 10px;
+  width: 50%;
+}
+
+
+.synopsisText {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  border-radius: 8px;
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+  background-color: #eff0ef87;
+  border: 1px solid #c7c7c7;
+  min-height: 200px;
+  min-width: 335px;
+  height: 3em;
+}
+
+.synopsisText::-webkit-scrollbar {
+  width: 4px;
+}
+
+.synopsisText::-webkit-scrollbar-thumb {
+  width: 1px;
+  background-color: #287ccb;
+  border-radius: 15px;
+}
+
+.rightInnerBox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 30px 0px 30px 30px;
+  width: 45em;
+  height: 60em;
+  background-color: white;
+  display: flex;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  border: 1px solid #e7e7e7;
+}
+
+.bookName {
+  text-transform: capitalize;
+  font-size: 40px;
+  display: flex;
+  justify-self: center;
+  text-align: left;
+  width: 100%;
+  font-weight: 500;
+}
+
+.detailsSpan {
+  font-size: 14px;
+  text-transform: capitalize;
+}
+
+.detailsContainer {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: left;
+  border-radius: 10px;
+  font-size: 100%;
+  width: 100%;
+}
+
+.price {
+  margin-top: 15px;
+  display: flex;
+  width: 100%;
+  justify-content: flex-start;
+  font-size: 35px;
+  font-weight: 400;
+}
+
+.buttonBookDetail {
+  font-size: 25px;
+  background-color: #287ccb;
+  border: 1px solid #287ccb;
+  height: 50px;
+  width: 250px;
+  border-radius: 5px;
+  color: white;
+  margin-top: 7px;
+  margin-bottom: 7px;
+  cursor: pointer;
+}
+
+.buttonOutStock {
+  font-size: 25px;
+  background-color: #d6d6d6;
+  border: 1px solid #d6d6d6;
+  height: 50px;
+  width: 250px;
+  border-radius: 5px;
+  color: rgb(255, 255, 255);
+  margin-top: 7px;
+  margin-bottom: 7px;
+}
+
+.buttonsContainer {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  flex-direction: column;
+  margin-top: 15px;
+}
+
+.reviews {
+  display: flex;
+  align-self: center;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  font-size: 20px;
+}
+
+.contentBookDetailDiv {
+  background-color: white;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  border-bottom: 1px solid #e7e7e7;
+  border-top: 1px solid #e7e7e7;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  width: 100%;
+}
+
+.contentSynopsis{
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+}
+
+.contentSynopsis p{
+  font-size: 20px;
+  font-weight: 500;
+  font-weight: bold;
+}
+
+.contentRatingViews p, .contentRatingViewsNew p {
+  font-size: 20px;
+  font-weight: 500;
+  font-weight: bold;
+  margin-left: 25px;
+}
+
+
+.categoryBookDetails {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  width: 100%;
+  min-width: 336px;
+}
+
+.estrellasRating {
+  color:#287ccb;
+}
+.contentFav {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: flex-end;
+  width: 95%;
+  margin-top: 10px;
+  margin-bottom: -15px;
+  color: #287ccb;
+}
+.favColor {
+  color: #287ccb;
+}
+.contentRating{
+  margin-bottom: 5px;
+}
+
+.titleFormDetails{
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 25px;
+  font-weight: bold;
+  font-size: 25px;
+  color: #287ccb;
+  background-color: white;
+  border-radius: 8px 8px 0px 0px;
+  box-shadow: 2px 0px 2px 1px rgba(0, 0, 0, 0.2);
+  width: 100%;
+}
+
+.formBackDetails{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  color: #287ccb;
+  background-color: white;
+  border-radius: 0px 0px 8px 8px;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  width: 100%;
+  margin-bottom: 25px;
+}
+
+.contentVentana{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  background:rgba(0, 0, 0, 0.82);
+  position:fixed;
+  min-width: 336px;
+  height:100%;
+  width:100%;
+  top: 0;
+  z-index: 15;
+}
+
+.ventana_flotante {
+  justify-content: space-around;
+  flex-direction: row;
+  background: #FFFFFF;
+  border: 1px solid #DDDDDD;
+  border-radius: 8px;
+  width: 60%;
+  min-height: 580px;
+  max-height: 90%;
+  overflow-y: scroll;
+  min-width: 336px;
+}
+
+
+.ventana_flotante::-webkit-scrollbar {
+  appearance: none;
+  -webkit-appearance: none; 
+  -moz-appearance: none;
+}
+
+.ventana_flotante::-webkit-scrollbar:vertical {
+  width:10px;
+}
+
+.ventana_flotante::-webkit-scrollbar-button:increment,.contenedor::-webkit-scrollbar-button {
+  display: none;
+} 
+
+.ventana_flotante::-webkit-scrollbar:horizontal {
+  height: 10px;
+}
+
+.ventana_flotante::-webkit-scrollbar-thumb {
+  background-color: #797979;
+  border-radius: 8px;
+  border: 2px solid #f1f2f3;
+}
+
+.ventana_flotante::-webkit-scrollbar-track {
+  border-radius: 10px;  
+}
+
+
+.buttonFav{
+  background-color: white;
+  border: 1px solid white;
+  cursor: pointer;
+}
+
+.contentReviews{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  flex-direction: column;
+  width: 100%;
+}
+
+.reviewText{
+  border-bottom: 1px solid #e7e7e7;
+  min-height: 150px;
+  width: 100%;
+  text-align: left;
+}
+
+.reviewText p{
+  margin-top: -10px;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+.contentLike{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  width: 100%;
+}
+
+.contentRatingViews{
+  position:absolute;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width:60%;
+  background-color: white;
+  z-index: 15;
+  border-radius: 8px 8px 0px 0px;
+  border-bottom: 1px solid #e7e7e7;
+  min-width: 336px;
+}
+
+.contentReviewsDetail{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.contentRatingViewsNew{
+  display: flex;
+  flex-wrap: wrap;
+  width:100%;
+  background-color: white;
+  border-top: 1px solid #e7e7e7;
+  margin-top: 25px;
+}
+
+.contentRatingViews button{
+  margin-right: 5px;
+  border-radius: 8px;
+}
+
+.contentRating{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: column;
+
+}
+
+.contentX{
+  background-color: white;
+  border: 1px solid white;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.contLibros{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  flex-direction: row;
+  width: 100px;
+  margin-top: 8px;
+  margin-bottom: -5px;
+}
+
+.contLibros button{
+  height: 2em;
+  width: 1.8em;
+}
+
+
+.contLibros p{
+  margin-top: 4px !important;
+  margin-bottom: 0px !important;
+}
+
+.newRating{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.newRatingDetail{
+  margin-top: -25px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+}
+
+.deleteIcon{
+  position: absolute;
+  top: 23px;
+  right: 40px;
+  cursor: pointer;
+}
+.calification{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:center;
+  align-items: flex-start;
+  flex-direction: column;
+  margin-top: -48px;
+  width: 100%;
+  border-bottom: 1px solid #e7e7e7;
+}
+
+.calificationDetail{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:center;
+  align-items: flex-start;
+  flex-direction: column;
+  margin-top: -48px;
+  width: 100%;
+  border-bottom: 1px solid #e7e7e7;
+}
+
+
+.stats{
+  display: flex; 
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.detailsMeter{
+  width: 20px;
+}
+
+.stats meter{
+  display: flex;
+  flex-wrap: wrap;
+  width: 200px;
+}
+
+.stats meter::-webkit-meter-optimum-value {
+  background: #287ccb; /* Green */
+}
+
+.contentMeter{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-direction: column-reverse;
+  margin-top: -50px;
+  margin-left: 25px;
+}
+
+.calification p, .calificationDetail p{
+  font-weight: 600;
+  font-size: 60px;
+  margin-right: 25px;
+}
+
+.textCalification{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.contentCalification{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-direction: row;
+  margin-left: 25px;
+}
+
+.buttonUdapte {
+  border: 1px solid #287ccb;
+  background-color: #287ccb;
+  height: 25px;
+  width: 80px;
+  border-radius: 5px;
+  color:white;
+  font-size: 13px;
+}
+
+.buttonUdapteDisable {
+  border: 1px solid #8d8d8d;
+  height: 25px;
+  width: 80px;
+  border-radius: 5px;
+  color:#8d8d8d;
+  font-size: 13px;
+}
+
+.contentSynopsisAndFormReviews{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  width: 100%;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 25px;
+}
+
+.revieFromUserContent{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.ratingStarsReviewUser{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.contentTextArea{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  width: fit-content;
+}
+
+.contentTextArea textarea{
+  width: 100%;
+}
+
+.testeo{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-direction: column;
+  width: auto;
+}
+
+
+.viewAllReviews{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  margin-left: 25px;
+  color: #287ccb;
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  .contentDetailsBook {
+    max-width: 514px;
+  }
+}
+
+@media (min-width: 1080px) {
+  .contentDetailsBook {
+    max-width: 614px;
+  }
+}
+
+@media (min-width: 1920px) {
+  .contentDetailsBook {
+    max-width: 900px;
+  }
+  .contentSynopsisAndFormReviews{
+    margin-left: 20%;
+    margin-right: 20%;
+  }
+}
+
+@media (min-width: 2560px) {
+  .contentDetailsBook {
+    max-width: 1260px;
+  }
+}
+
+@media (min-width: 3260px) {
+  .contentDetailsBook {
+    max-width: 1660px;
+  }
+}
+
+@media (max-width: 914px) {
+  .whiteBox {
+    width: 80%;
+  }
+
+}

@@ -1,0 +1,51 @@
+/* @import '~antd/dist/antd.dark.css'; */
+/* @import '~antd/dist/antd.compact.css'; */
+
+/* @import '~antd/dist/antd.less';
+@import '~antd/dist/antd.dark.less';
+@import '~antd/dist/antd.compact.less';
+@import "~antd/lib/style/themes/default.less"; */
+
+*,
+*::before,
+*::after {
+  box-sizing: revert;
+}
+
+/* body {
+  color: #34495e;
+} */
+
+.ant-table-expand-icon-col {
+  width: 0px;
+}
+
+
+@import "~antd/dist/antd.css";
+
+.stockInput::-webkit-outer-spin-button,
+.stockInput::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.divSearchTables{
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.toolBarDiv{
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.toolBarDivBooks{
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+}
